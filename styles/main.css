@@ -1,0 +1,65 @@
+* {
+    font-family: Poppins;
+  }
+
+  body {
+    font-size: 16px;
+    margin: 0 auto;
+    background-color: rgb(234,240,246);
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 20% 0 20%;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  h3 {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .whereami {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .previous {
+    color: rgb(147,151,159);
+  }
+
+  .here {
+    font-weight: 600;
+    color: rgb(147,151,159)
+  }
+
+  .material-symbols-rounded {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(147,151,159);
+  }
+
+  .sign-up {
+    display: flex;
+    flex-direction: column;
+    color: rgb(147, 151, 159);
+    background-color: white;
+    line-height: 40px;
+    padding: 5%;
+  }
+
+  input {
+    background-color: rgb(234,240,246);
+    border-style: none;
+    border-radius: 10px;
+    color: rgb(110,105,106);
+    font-size: 20px;
+    height: 20px;
+    width: 400px;
+    padding: 2%;
+    }

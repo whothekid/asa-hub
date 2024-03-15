@@ -19,19 +19,22 @@
     <body>
         <main>
             <nav class="whereami">
-                <a href="#"><h3>Inicio</h3></a>
+                <a href="#"><h3 class="previous">Inicio</h3></a>
                 <span class="material-symbols-rounded">
                     navigate_next
                 </span>
-                <a href="#"><h3>Cadastrar</h3></a>
+                <a href="#"><h3 class="here">Cadastrar</h3></a>
             </nav>
-            <section>
-                <img src="logo.jpg" alt="Application logo">
+            <section class="sign-up">
+                <img class="logo" src="logo.jpg" alt="Application logo">
                 <form class="new-user">
-                    <lavel for="email-adress">Endereço de e-mail:</lavel>
-                    <input type="email" id="email-adress" name="email-adress">
-                    <label for="full-name">Nome completo</label>
-                    <label for="role">Cargo:</label>
+                    <lavel for="email-adress">Endereço de e-mail:</lavel><br />
+                    <input type="email" id="email-adress" name="email-adress"><br />
+                    <label for="full-name">Nome completo</label><br />
+                    <input type="email" id="email-adress" name="email-adress"><br />
+                </form>
+                <form class="role">
+                    <label for="role">Cargo:</label><br />
                     <select id="role" name="role">
                         <option value="sales-representative">Representante de comercial</option>
                         <option value="technician">Técnico</option>
@@ -42,7 +45,7 @@
                 <form class="password-form">
                     <label for="user-name">Nome de usuário:</label>
                     <input type="text" id="user-name" name="user-name">
-                    <label for="password"></label>
+                    <label for="password">Senha:</label>
                     <input type="password" id="pass" name="password" minlength="8" required/>
                 </form>
             </section>
