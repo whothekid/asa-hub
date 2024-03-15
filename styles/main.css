@@ -8,6 +8,13 @@
     background-color: rgb(234,240,246);
   }
 
+  aside {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 0 2% 2%;
+    width: 20%;
+  }
+
   main {
     display: flex;
     flex-direction: column;
@@ -47,10 +54,22 @@
   .sign-up {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: rgb(147, 151, 159);
     background-color: white;
     line-height: 40px;
     padding: 5%;
+  }
+
+  .forms-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
   }
 
   input {

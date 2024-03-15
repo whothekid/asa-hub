@@ -27,27 +27,29 @@
             </nav>
             <section class="sign-up">
                 <img class="logo" src="logo.jpg" alt="Application logo">
-                <form class="new-user">
-                    <lavel for="email-adress">Endereço de e-mail:</lavel><br />
-                    <input type="email" id="email-adress" name="email-adress"><br />
-                    <label for="full-name">Nome completo</label><br />
-                    <input type="email" id="email-adress" name="email-adress"><br />
-                </form>
-                <form class="role">
-                    <label for="role">Cargo:</label><br />
-                    <select id="role" name="role">
-                        <option value="sales-representative">Representante de comercial</option>
-                        <option value="technician">Técnico</option>
-                        <option value="manager">Gerente</option>
-                        <option value="sales-assistant">Assistente de vendas</option>
-                      </select>
-                </form>
-                <form class="password-form">
-                    <label for="user-name">Nome de usuário:</label>
-                    <input type="text" id="user-name" name="user-name">
-                    <label for="password">Senha:</label>
-                    <input type="password" id="pass" name="password" minlength="8" required/>
-                </form>
+                <section class="forms-container">
+                    <form class="new-user">
+                        <label for="email-adress">Endereço de e-mail:</lavel><br />
+                        <input type="email" id="email-adress" name="email-adress"><br />
+                        <label for="full-name">Nome completo</label><br />
+                        <input type="email" id="email-adress" name="email-adress"><br />
+                    </form>
+                    <form class="role">
+                        <label for="role">Cargo:</label><br />
+                        <select id="role" name="role">
+                            <option value="sales-representative">Representante de comercial</option>
+                            <option value="technician">Técnico</option>
+                            <option value="manager">Gerente</option>
+                            <option value="sales-assistant">Assistente de vendas</option>
+                        </select>
+                    </form>
+                    <form class="password-form">
+                        <label for="user-name">Nome de usuário:</label>
+                        <input type="text" id="user-name" name="user-name">
+                        <label for="password">Senha:</label>
+                        <input type="password" id="pass" name="password" minlength="8" required/>
+                    </form>
+                </section>
             </section>
         </main>
     </body>
