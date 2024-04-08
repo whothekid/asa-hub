@@ -6,6 +6,7 @@
     font-size: 16px;
     margin: 0 auto;
     background-color: rgb(234,240,246);
+    color: rgb(59,65,79);
   }
 
   aside {
@@ -13,6 +14,7 @@
     flex-direction: column;
     padding: 2% 0 2% 2%;
     width: 20%;
+    background-color:white;
   }
 
   main {
@@ -67,9 +69,19 @@
     flex-direction: column;
   }
 
+  .power-button{
+    margin: 0 50px 0 0;
+  }
+
+  #power-search {
+    width: 120%;
+    font-size: 12px;
+  }
+
   .menu {
     display: flex;
     flex-direction: column;
+    margin: 0 50px 0 0;
   }
 
   input {
@@ -81,4 +93,15 @@
     height: 20px;
     width: 400px;
     padding: 2%;
+    }
+
+    .nav-item {
+      padding: 5%;
+      color: rgb(59,65,79);
+    }
+
+    .nav-item:hover {
+      color: rgb(11,53,119);
+      background-color: rgb(234,240,246);
+      border-radius: 5px;
     }

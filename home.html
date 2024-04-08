@@ -12,6 +12,7 @@
         <link rel="preload" href="fonts/Poppins-SemiBold.ttf" as="font" type="font/ttf" crossorigin />
         <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins&display=swap" as="stylesheet" type="stylesheet" crossorigin />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <link href="./styles/main.css" rel="stylesheet" />
         <title>ASA Hub</title>
         <link rel="icon" type="image/x-icon" href="/images/favicon.svg">
@@ -22,17 +23,23 @@
         </header>
         <aside>
             <img class="logo" src="logo.jpg" alt="Application logo">
+            <section class="power-button">
+                <input type="text" id="power-search" name="pbutton" placeholder="Busca avançada">
+                <span class="material-symbols-outlined" id="power-search-button">
+                    bolt
+                </span>
+            </section>
             <section class="user-info">
                 <h3><img class="user-photo" src="user-photo.jpg" alt="User picture">Eduardo</h3>
                 <h3>Rep. comercial</3>
             </section>
             <section class="menu">
-                <a href="#">Início</a>
-                <a href="#">Ordem de serviço</a>
-                <a href="#">Faturas</a>
-                <a href="#">Clientes</a>
-                <a href="#">Controle de frota</a>
-                <a href="#">Sair <span class="material-symbols-rounded">
+                <a class="nav-item" href="#">Início</a>
+                <a class="nav-item" href="#">Ordem de serviço</a>
+                <a class="nav-item" href="#">Faturas</a>
+                <a class="nav-item" href="#">Clientes</a>
+                <a class="nav-item" href="#">Controle de frota</a>
+                <a class="nav-item" href="#">Sair <span class="material-symbols-rounded">
                     move_item
                 </span>
                 </a>
